@@ -1,6 +1,6 @@
 <?php
 
-$link = mysqli_connect('localhost','root','','Homework_2_VS_DB');
+$link = mysqli_connect('localhost','root','','Quiz_2_VS_DB');
 
 if($link == false)
 {
