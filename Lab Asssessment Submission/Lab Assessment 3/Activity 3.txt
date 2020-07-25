@@ -1,0 +1,3 @@
+SELECT Last_Name, Department_ID
+FROM employees
+WHERE Department_ID IN(20,50)
