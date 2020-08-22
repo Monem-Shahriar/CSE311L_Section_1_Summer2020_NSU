@@ -1,0 +1,11 @@
+SELECT CONCAT(Last_Name,", ",Job_ID) AS "Employee and Title"
+FROM employees
+
+select last_name, salary, commission_pct
+from employees
+where commission_pct is not null
+order by salary DESC, commission_pct DESC
+
+select last_name, hire_date
+from employees
+where hire_date like '%94'
